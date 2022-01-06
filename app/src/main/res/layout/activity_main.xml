@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Make your call !"
+        android:textStyle="bold"
+        android:textSize="28dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGRP" >
+        <RadioButton
+            android:layout_marginTop="50dp"
+            android:id="@+id/headBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Head"
+            android:textSize="22dp" />
+        <RadioButton
+            android:layout_marginTop="10dp"
+            android:id="@+id/tailBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tail"
+            android:textSize="22dp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/tossCal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toss"
+        android:textSize="24dp"/>
+
+
+
+
+</LinearLayout>
